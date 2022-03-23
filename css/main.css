@@ -7,7 +7,9 @@ body * {
 }
 body {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: #641B7F;
 }
+
 
 .container {
    width: 800px;
@@ -19,12 +21,25 @@ body {
    width: 40%;
    float: left;
    padding: 40px;
-   background-color: red;
+   background-color: #00849E;
+   color: #fff;
+}
+.main-title {
+   width: 100%;
+   margin-bottom: 250px;
+   font-size: 40px;
+   font-weight: normal;
+}
+.bottom-links{
+   
+}
+.bottom-links > .link {
+   color: #fff;
 }
 
 .right-column {
     width: 60%;
     float: left;
     padding: 60px;
-    background-color: blue;
+    background-color: #fff;
 }
