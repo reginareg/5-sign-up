@@ -22,7 +22,11 @@ body {
    float: left;
    padding: 40px;
    background-color: #00849E;
+   background-image:url(../img/hill.png);
    color: #fff;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .main-title {
    width: 100%;
@@ -30,7 +34,7 @@ body {
    font-size: 40px;
    font-weight: normal;
 }
-.bottom-links{
+.bottom-link {
    
 }
 .bottom-links > .link {
