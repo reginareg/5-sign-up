@@ -1,0 +1,23 @@
+.form {
+    width: 100%;
+ }
+ 
+ .form > .form-row {
+    width: 100%;
+    margin-bottom: 30px;
+ }
+ 
+ .form > .form-row:last-child {
+    margin-bottom: 0;
+ }
+ 
+ 
+ .form > .form-row > .label {
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+ }
+ 
+ .form > .form-row > .input {
+    width: 100%;
+ }
