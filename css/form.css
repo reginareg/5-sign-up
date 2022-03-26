@@ -28,8 +28,10 @@
     border-bottom: 3px solid grey;
     padding-top: 5px;
     padding-bottom: 5px;
-    
  }
+ .form > .form-row > .input:focus {
+    outline: 1px solid red;
+}
 
  .form span {
      line-height: 40px;
@@ -42,3 +44,4 @@
 }
 .form a:hover {
     text-decoration: underline;
+}
