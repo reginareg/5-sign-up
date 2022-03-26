@@ -5,6 +5,7 @@
  .form > .form-row {
     width: 100%;
     margin-bottom: 30px;
+    
  }
  
  .form > .form-row:last-child {
@@ -16,8 +17,28 @@
     width: 100%;
     margin-bottom: 10px;
     display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    
  }
  
  .form > .form-row > .input {
     width: 100%;
+    border: none;
+    border-bottom: 3px solid grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
  }
+
+ .form span {
+     line-height: 40px;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ .form a {
+    line-height: 40px;
+    color:#344DAB;
+}
+.form a:hover {
+    text-decoration: underline;
