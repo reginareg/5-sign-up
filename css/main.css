@@ -1,70 +1,70 @@
 body {
-   height: 100vh;
-   position: relative;
-   background-image: url(../img/hill.png);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   backdrop-filter: blur(10px);
+  height: 100vh;
+  position: relative;
+  background-image: url(../img/hill.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
 }
 
 .container {
-   display: inline-block;
-   width: 800px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .left-column {
-   width: 40%;
-   padding: 40px;
-   background-color: #008fae;
-   background-image: url(../img/hill.png);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   color: #fff;
-   position: absolute;
-   bottom: 30px;
-   top: 30px;
-   left: 0;
+  width: 40%;
+  padding: 40px;
+  background-color: #008fae;
+  background-image: url(../img/hill.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+  top: 30px;
+  left: 0;
 }
 
 .main-title {
-   width: 100%;
-   font-size: 40px;
-   font-weight: normal;
+  width: 100%;
+  font-size: 40px;
+  font-weight: normal;
 }
 
-.bottom-link {
-   position: absolute;
-   bottom: 20px;
-   left: 40px;
-   right: 40px;
+.bottom-links {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
 }
 
-.bottom-link > .link {
-   color: #fff;
+.bottom-links > .link {
+  color: #fff;
 }
 
 .right-column {
-   width: 60%;
-   float: right;
-   padding: 60px;
-   background-color: #fff;
-   position: relative;
+  width: 60%;
+  float: right;
+  padding: 60px;
+  background-color: #fff;
+  position: relative;
 }
 
 .close {
-   width: 60px;
-   height: 60px;
-   font-size: 30px;
-   text-align: center;
-   line-height: 54px;
-   position: absolute;
-   right: 0;
-   top: 0;
-   cursor: pointer;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 54px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
 }
